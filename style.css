@@ -1,7 +1,9 @@
 title {
     font-size: small;
 }
-
+body{
+    margin:0px;
+}
 .grid-top-container{
     display: grid;
     grid-template-columns: auto 60px 60px 60px 60px;
@@ -99,6 +101,25 @@ div.google_tab{
         margin-top: 60px;
         height: auto;
     }
+    .searching_tab{
+        width: 380px;
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+    .grid-go-container{
+        width: 600px;
+    }
+    #first_go{
+        margin-left:133px;
+    }
+    #second_go{
+        margin-right:133px;
+        margin-left:5px;
+    }
+    #offered_by{
+    
+        width:600px;
+    }
 }
 
 
@@ -134,4 +155,29 @@ div.top_tab:hover{
     text-decoration: underline;
 }
 
-
+ul{
+    list-style-type:none;
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(241, 240, 240);
+}
+.bar{
+    display:inline;
+    float:left;
+}
+.bar a{
+    display:block;
+    color: gray;
+    padding:14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.bar a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
