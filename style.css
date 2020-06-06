@@ -1,0 +1,137 @@
+title {
+    font-size: small;
+}
+
+.grid-top-container{
+    display: grid;
+    grid-template-columns: auto 60px 60px 60px 60px;
+    height: 40px;
+}
+div.google_tab{ 
+    content:url("assets/google_center.png");
+    max-width: 275px;
+    display: block;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right: auto;
+    height: auto;
+}
+.searching_tab{
+    display:block;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:18px;
+    padding: 12.5px 8px;
+    border-radius: 30px;
+    border-color: rgb(206, 206, 206);
+    border-style: solid;
+    box-sizing: border-box;
+}
+.grid-go-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:100%;
+    height: 70px;
+}
+#first_go{
+    display:block;
+    margin-left:auto;
+    margin-top:35px;
+    margin-right:5px;
+    padding:10px;
+    border-width:thin;
+    border-color: white;
+    border-style:solid;
+    background-color: rgb(241, 240, 240);
+    color:rgb(139, 139, 139);
+    text-align: center;
+    width: 140px;
+}
+#first_go:hover{
+    cursor: pointer;
+    border-color:gray;
+}
+#second_go{
+    display:block;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top:35px;
+    padding:10px;
+    border-width:thin;
+    border-style:solid;
+    border-color: white;
+    background-color: rgb(241, 240, 240);
+    color:rgb(139, 139, 139);
+    text-align: center;
+    width: 140px;
+}
+#second_go:hover{
+    cursor: pointer;
+    border-color:gray;
+}
+#image_search_tab_front{
+    position: fixed;
+    top:100px;
+    width:30px;
+    height: auto;
+}
+#offered_by{
+    display:block;
+    width:100%;
+    margin-top: 50px;
+    text-align: center;
+    height:70px;
+}
+@media screen and (max-width: 600px){
+    .grid-top-container{
+        display: grid;
+        grid-template-columns: 360px 60px 60px 60px 60px;
+        width: 600px;
+        height: 40px;
+    }
+    div.google_tab{ 
+        content:url("assets/google_center.png");
+        max-width: 275px;
+        display: block;
+        margin-left: 162.5px;
+        margin-right: 162.5px;
+        margin-top: 60px;
+        height: auto;
+    }
+}
+
+
+div.shiba_cheer{
+    content:url("assets/shiba_san_cheer.png");
+    margin: auto;
+    height: 40px;
+}
+div.shiba{
+    content:url("assets/shiba_san.png");
+    margin: auto;
+    height: 40px;
+}
+div.shiba:hover{
+    cursor:pointer;
+}
+div.shiba_cheer:hover{
+    cursor:pointer;
+}
+div.top_tab{
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+div.top_tab:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hoverable:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+
